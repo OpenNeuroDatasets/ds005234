@@ -98,7 +98,8 @@ Or use the requirements_xxxxxx.txt files located in `code` directory:
 - For Windows OS (version 10 and above), please use requirements_for_windows_1x.txt.
 
 To do this, you can run the following command in the Ubuntu terminal or Anaconda Prompt for Windows OS:
-`conda create --name mne1.4 --file <requirements_filename>`
+
+`conda create --name mne1.4 --file requirements_filename`
 
 3. Activate the created environment:
 `conda activate mne1.4`
