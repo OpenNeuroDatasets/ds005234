@@ -16,7 +16,14 @@ The participants were instructed to watch a silent video (movie/cartoon) of thei
 
 # Stimuli:
 
-The experimental paradigm used in this study is identical to that described in Orekhova et al. (2023). We used four types of synthetic vowel-like stimuli previously employed by Uppenkamp et al. (2006, 2011) and downloaded from http://medi.uni-oldenburg.de/members/stefan/phonology_1/. Also you can find the copy of sound files in `stimuli` directory of this dataset page. Five strong vowels were used: /a/ (caw, dawn), /e/ (ate, bait), /i/ (beat, peel), /o/ (coat, wrote), and /u/ (boot, pool). A total of 270 stimuli from each of the four classes were presented, with three stimulus variants equally represented within each class (N = 90). All stimuli were presented in random order. Each stimulus lasted 812 ms, including rise/fall times of 10 ms each. The interstimulus intervals (ISI) were randomly chosen from a range of 500 to 800 ms.
+The experimental paradigm used in this study is identical to that described in Orekhova et al. (2023). We used four types of synthetic vowel-like stimuli previously employed by Uppenkamp et al. (2006, 2011) and downloaded from http://medi.uni-oldenburg.de/members/stefan/phonology_1/. **Also you can find the copy of sound files in `stimuli` directory of this dataset page**. Five strong vowels were used: 
+- /a/ (caw, dawn), 
+- /e/ (ate, bait), 
+- /i/ (beat, peel), 
+- /o/ (coat, wrote) and 
+-/u/ (boot, pool). 
+
+A total of 270 stimuli from each of the four classes were presented, with three stimulus variants equally represented within each class (N = 90). All stimuli were presented in random order. Each stimulus lasted 812 ms, including rise/fall times of 10 ms each. The interstimulus intervals (ISI) were randomly chosen from a range of 500 to 800 ms.
 
 Short names of stimuli (used in code, filenames, and directory names):
 - `dv` - periodic vowels
