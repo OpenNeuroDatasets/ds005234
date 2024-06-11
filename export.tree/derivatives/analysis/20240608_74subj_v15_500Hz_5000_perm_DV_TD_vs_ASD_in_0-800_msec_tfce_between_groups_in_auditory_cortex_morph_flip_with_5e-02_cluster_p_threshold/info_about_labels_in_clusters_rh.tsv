@@ -1,5 +1,0 @@
-percent_of_common_vertices	label_name	quantity_of_common_vertices	quantity_of_all_vertices_in_label	vertices_MNE_indices_dict
-38.88888888888889	S_circular_insula_sup-rh	21	54	{45569, 153097, 23948, 117145, 20122, 30763, 124461, 30773, 83129, 153019, 67900, 20037, 60361, 153036, 83164, 133982, 83175, 67561, 153321, 153078, 27004}
-17.77777777777778	G_front_inf-Opercular-rh	8	45	{117155, 30797, 37459, 45588, 30804, 134073, 10714, 93021}
-7.142857142857142	G_and_S_subcentral-rh	4	56	{50856, 153130, 60459, 2162}
-2.631578947368421	S_circular_insula_inf-rh	1	38	{159534}
