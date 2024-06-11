@@ -60,23 +60,23 @@ The code of project has the following structure (directory names provide explana
 ```
 code
 ├── analysis
-│   ├── 0-preprocessing_for_clustering
-│   │   ├── ...
-│   ├── 1-tfce_clustering
-│   │   ├── ...
-│   ├── 2-clustering_results_analytics
-│   │   ├── ...
-│   └── modules
-│       ├── clustering.py
-│       └── data_ops.py
+│         ├── 0-preprocessing_for_clustering
+│         │         ├── ...
+│         ├── 1-tfce_clustering
+│         │         ├── ...
+│         ├── 2-clustering_results_analytics
+│         │         ├── ...
+│         └── modules
+│             ├── clustering.py
+│             └── data_ops.py
 ├── envs
-│   ├── envs_for_between_groups_clustering_in_auditory_cortex_with_morphological_sign_flip.json
-│   ├── envs_for_interaction_clustering_in_auditory_cortex_with_morphological_sign_flip.json
-│   └── envs_for_within_groups_clustering_in_auditory_cortex_with_morphological_sign_flip.json
+│         ├── envs_for_between_groups_clustering_in_auditory_cortex_with_morphological_sign_flip.json
+│         ├── envs_for_interaction_clustering_in_auditory_cortex_with_morphological_sign_flip.json
+│         └── envs_for_within_groups_clustering_in_auditory_cortex_with_morphological_sign_flip.json
 ├── preprocessing
-│   ├── 00-maxwell_filtering.py
-│   ├── ...
-│   └── 10-make_stc.py
+│         ├── 00-maxwell_filtering.py
+│         ├── ...
+│         └── 10-make_stc.py
 ├── README
 ├── requirements_for_ubuntu_2x.txt
 └── requirements_for_windows_1x.txt
@@ -122,8 +122,8 @@ The derivatives of project has the following structure (directory names provide 
 ```
 derivatives/preprocessing/
 ├── fsaverage_labels_of_analytics
-│   ├── auditory_cortex_region-lh.label
-│   └── auditory_cortex_region-rh.label
+│         ├── auditory_cortex_region-lh.label
+│         └── auditory_cortex_region-rh.label
 └── fsaverage_stcs_after_morph_flip_in_labels_of_analytics
     ├── subjects_info_for_morphological_sign_flipped_data_1000Hz
     └── subjects_stc_for_morphological_sign_flipped_data_1000Hz
