@@ -16,7 +16,7 @@ The participants were instructed to watch a silent video (movie/cartoon) of thei
 
 # Stimuli:
 
-The experimental paradigm used in this study is identical to that described in Orekhova et al. (2023). We used four types of synthetic vowel-like stimuli previously employed by Uppenkamp et al. (2006, 2011) and downloaded from http://medi.uni-oldenburg.de/members/stefan/phonology_1/. **You can also find a copy of the sound files in the `stimuli` directory on this dataset page.**. Five strong vowels were used: 
+The experimental paradigm used in this study is identical to that described in Orekhova et al. (2023). We used four types of synthetic vowel-like stimuli previously employed by Uppenkamp et al. (2006, 2011) and downloaded from http://medi.uni-oldenburg.de/members/stefan/phonology_1/. **You can also find a copy of the sound files in the `stimuli` directory on this dataset page**. Five strong vowels were used: 
 - /a/ (caw, dawn), 
 - /e/ (ate, bait), 
 - /i/ (beat, peel), 
@@ -89,7 +89,7 @@ code
 └── requirements_for_windows_1x.txt
 ```
 
-<font color="#ff0000">**Please read `code/README` file for more detail instructions.** </font>
+<font color="#ff0000">**Please read `code/README.md` file for more detail instructions.** </font>
 
 ### Requirements for Code Usage (MNE-Python & Additional Python Libraries)"
 
