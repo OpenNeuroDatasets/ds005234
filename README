@@ -82,7 +82,7 @@ code
 └── requirements_for_windows_1x.txt
 ```
 
-**Please read `code/README.md` file for more detail instructions.** 
+<font color="#ff0000">**Please read `code/README` file for more detail instructions.** </font>
 
 ### Requirements for Code Usage (MNE-Python & Additional Python Libraries)"
 
