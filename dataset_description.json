@@ -16,5 +16,7 @@
     "License": "CC0",
     "Acknowledgements": "We sincerely thank all of volunteers who participated in this study. ",
     "HowToAcknowledge": "Please acknowledge this dataset by indicating that it is distributed under the CC BY license. When using this dataset, please ensure to include a reference link to it (i.e. by DOI).",
-    "Funding": []
+    "Funding": [
+        "The state assignment of the Ministry of Education of the Russian Federation (N 073-00037-24-01)"
+    ]
 }
