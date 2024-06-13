@@ -44,10 +44,10 @@ The following tests were also administered to the study participants:
 # Dataset content:
 
 ## MEG data
-`sub\<label\>/meg/...meg.fif` -- 3 runs (in some cases, the number of runs may differ due to the subjects' features). MEG data were recorded using Elekta VectorView Neuromag 306-channel MEG detector array (Helsinki, Finland) with 0.1 - 330 Hz inbuilt filters and 1000 Hz sample frequency.
+`sub-LABEL/meg/...meg.fif` -- 3 runs (in some cases, the number of runs may differ due to the subjects' features). MEG data were recorded using Elekta VectorView Neuromag 306-channel MEG detector array (Helsinki, Finland) with 0.1 - 330 Hz inbuilt filters and 1000 Hz sample frequency.
 
 ## MRI data
-`sub<label>/anat/` -- T1-weighted images MRI for subject.
+`sub-LABEL/anat/` -- T1-weighted images MRI for subject.
 
 ## Freesurfer
  `derivatives/freesurfer/` - outputs of running the FreeSurfer pipeline `recon-all` on the MRI data with no additional command line options (only defaults were used):
@@ -97,7 +97,9 @@ code
 
 2. After you have a working version of Python 3, simply install a new virtual environment via this command in the Ubuntu terminal or Anaconda Prompt for Windows OS:
 
-`conda create --name=mne1.4 --channel=conda-forge python=3.10 mne=1.4.1 numpy=1.23.1 spyder pyvista pyvistaqt pingouin rpy2 mne-bids numpy openpyxl autoreject`
+```
+conda create --name=mne1.4 --channel=conda-forge python=3.10 mne=1.4.1 numpy=1.23.1 spyder pyvista pyvistaqt pingouin scipy mne-bids pandas openpyxl autoreject
+```
 
 
 Or use the requirements_xxxxxx.txt files located in `code` directory:
@@ -106,13 +108,19 @@ Or use the requirements_xxxxxx.txt files located in `code` directory:
 
 To do this, you can run the following command in the Ubuntu terminal or Anaconda Prompt for Windows OS:
 
-`conda create --name mne1.4 --file requirements_filename`
+```
+$ conda create --name mne1.4 --file requirements_filename
+```
 
 3. Activate the created environment:
-`conda activate mne1.4`
+```
+$ conda activate mne1.4
+```
 
 4. Start your favorite IDE with this environment. For example, to start Spyder IDE, use this command after activating the environment:
-`spyder`
+```
+$ spyder
+```
 
 5. To start processing data, go to the directory with the downloaded data and open the Python scripts of interest. (If you are using Spyder IDE, use the "Files" pane located in the upper right corner of the workspace.)
 
