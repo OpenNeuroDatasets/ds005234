@@ -16,7 +16,7 @@ The participants were instructed to watch a silent video (movie/cartoon) of thei
 
 # Stimuli:
 
-The experimental paradigm used in this study is identical to that described in Orekhova et al. (2023). We used four types of synthetic vowel-like stimuli previously employed by Uppenkamp et al. (2006, 2011) and downloaded from http://medi.uni-oldenburg.de/members/stefan/phonology_1/. **You can also find a copy of the sound files in the `stimuli` directory on this dataset page**. Five strong vowels were used: 
+The experimental paradigm used in this study is identical to that described in Orekhova et al. (2023). We used four types of synthetic vowel-like stimuli previously employed by Uppenkamp et al. (2006, 2011) and downloaded from [http://medi.uni-oldenburg.de/members/stefan/phonology_1/](http://medi.uni-oldenburg.de/members/stefan/phonology_1/). **You can also find a copy of the sound files in the `stimuli` directory on this dataset page**. Five strong vowels were used: 
 - /a/ (caw, dawn), 
 - /e/ (ate, bait), 
 - /i/ (beat, peel), 
@@ -97,14 +97,14 @@ code
 
 2. After you have a working version of Python 3, simply install a new virtual environment via this command in the Ubuntu terminal or Anaconda Prompt for Windows OS:
 
-```
+```sh
 conda create --name=mne1.4 --channel=conda-forge python=3.10 mne=1.4.1 numpy=1.23.1 spyder pyvista pyvistaqt pingouin scipy mne-bids pandas openpyxl autoreject
 ```
 
 
 Or use the requirements_xxxxxx.txt files located in `code` directory:
-- For Ubuntu OS (version 20 and above), please use requirements_for_ubuntu_2x.txt.
-- For Windows OS (version 10 and above), please use requirements_for_windows_1x.txt.
+- For Ubuntu OS (version 20 and above), please use `requirements_for_ubuntu_2x.txt`.
+- For Windows OS (version 10 and above), please use `requirements_for_windows_1x.txt`.
 
 To do this, you can run the following command in the Ubuntu terminal or Anaconda Prompt for Windows OS:
 
