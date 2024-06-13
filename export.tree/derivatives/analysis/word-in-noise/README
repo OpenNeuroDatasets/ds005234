@@ -1,0 +1,62 @@
+This folder contains:
+probability_map.csv
+win_task_result_for_30_td_and_26_asd.csv
+
+Description of probability_map.csv:
+This CSV file contains detailed data on the recognition rates of words under different conditions.
+
+Structure of probability_map.csv:
+The file consists of the following columns:
+subject_id: Identifier for the participant.
+group: Indicates if the participant is part of the 'norm' (TD) or 'asd' (ASD) group.
+right_answer: The recognition correctness for the word (0 or 1).
+level(snr): Signal-to-Noise ratio at which the word and noise were presented.
+noise_modulation: Indicates the type of noise modulation (0 for stationary, 1 for amplitude-modulated).
+word_id: Numerical identifier for the word.
+word: The actual word presented to the participant.
+
+Purpose of probability_map.csv:
+The probability_map.csv file serves as a foundational dataset for analyzing the ease of word recognition in various noise conditions for both TD and ASD groups. This process helps in refining the wordlist for the WiN task, ensuring a balanced difficulty level for both typically developing and autistic children.
+
+Description of win_task_result_for_30_td_and_26_asd.csv:
+The file win_task_result_for_30_td_and_26_asd.csv contains the results of the Words-in-Noise (WiN) test conducted with participants divided into two groups: neurotypical (TD) and children with Autism Spectrum Disorder (ASD). The test was designed to assess the participants' ability to recognize words under varying levels of noise and its modulation.
+
+Structure of win_task_result_for_30_td_and_26_asd.csv:
+The file consists of the following columns:
+subject_id: Identifier of the subject.
+group: Group to which the subject belongs (norm or asd).
+level(snr): Signal-to-Noise Ratio (SNR) level in decibels. Possible values: 0, -3, -6, -9.
+noise_modulation: Type of noise. Possible values:
+0: Continuous noise (stationary, ST).
+1: Amplitude modulated noise (amplitude-modulated, AM).
+value: Number of correctly recognized words for the given subject, SNR level, and noise type.
+
+Purpose of win_task_result_for_30_td_and_26_asd.csv:
+The win_task_result_for_30_td_and_26_asd.csv file provides structured data for analyzing the ability of participants to recognize words under different noise conditions. These data can be used for:
+Comparing performance between neurotypical children and children with autism.
+Studying the impact of SNR levels on word recognition.
+Analyzing the effect of different noise types on word recognition.
+
+Description of the Words-in-Noise (WiN) Test
+1. Stimuli
+The Words-in-Noise (WiN) test includes 160 two-syllable lemmatized Russian nouns with high imagery potential. These words were selected from frequently occurring noun lists and are appropriate for children aged 6 and older. Two child psychologists confirmed that these words are familiar to most verbal 7-year-old children with autism.
+
+The words were spoken in a neutral female voice and recorded with studio equipment. The average duration of the words was 694 ms (SD = 77 ms). The loudness of each word was adjusted to match the level of 45 dB SPL pink noise.
+
+There were two types of noise:
+
+Continuous (stationary, ST): synthesized using the ‘pinknoise’ function in MATLAB R2020a.
+Amplitude modulated (AM): created by modulating ST noise with a 10 Hz sinusoidal function, resulting in interruptions 10 times per second.
+
+2. Testing Procedure
+Words were presented through Sony WH-XB900N headphones with the noise-canceling function turned off. The headphones were calibrated using a CEM DT-815 sound level meter with 45 dB pink noise as the reference.
+
+The experiment started with a training session where 10 words were presented with different noise levels (from 3 to -3 SNR). Participants had to repeat the word they heard, and only exact repetitions were considered correct. The training lasted up to 10 minutes or until the participant understood the instructions.
+
+The main test consisted of four blocks, corresponding to SNR levels of 0, -3, -6, and -9 dB. Each block included 40 words (20 for each noise type). The type of noise varied in a pseudorandom order to avoid more than three consecutive presentations of the same noise type.
+
+For each condition (4 SNR levels, 2 noise types), the number of correctly recognized words was counted.
+
+Contact Information
+If you have any questions or suggestions regarding the use of the data, please contact the research author.
+Kirill F. fadeevk.fefu@gmail.com
