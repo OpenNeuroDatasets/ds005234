@@ -44,7 +44,7 @@ The following tests were also administered to the study participants:
 # Dataset content:
 
 ## MEG data
-`sub<label>/meg/...meg.fif` -- 3 runs (in some cases, the number of runs may differ due to the subjects' features). MEG data were recorded using Elekta VectorView Neuromag 306-channel MEG detector array (Helsinki, Finland) with 0.1 - 330 Hz inbuilt filters and 1000 Hz sample frequency.
+`sub\<label\>/meg/...meg.fif` -- 3 runs (in some cases, the number of runs may differ due to the subjects' features). MEG data were recorded using Elekta VectorView Neuromag 306-channel MEG detector array (Helsinki, Finland) with 0.1 - 330 Hz inbuilt filters and 1000 Hz sample frequency.
 
 ## MRI data
 `sub<label>/anat/` -- T1-weighted images MRI for subject.
