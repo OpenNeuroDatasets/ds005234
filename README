@@ -62,7 +62,7 @@ $ mne watershed_bem -s Z201
 ```
 
 ## Code
-The code of project has the following structure (directory names provide explanations of their contents):
+The code of the project was developed and tested for Ubuntu OS (20-22 x64 version) and has the following structure (directory names provide explanations of their contents):
 
 ```
 code
