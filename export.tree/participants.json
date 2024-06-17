@@ -1,0 +1,35 @@
+{
+    "participant_id": {
+        "Description": "Unique participant identifier"
+    },
+    "age": {
+        "Description": "Age of the participant at time of testing",
+        "Units": "years"
+    },
+    "sex": {
+        "Description": "Biological sex of the participant",
+        "Levels": {
+            "F": "female",
+            "M": "male"
+        }
+    },
+    "hand": {
+        "Description": "Handedness of the participant",
+        "Levels": {
+            "R": "right",
+            "L": "left",
+            "A": "ambidextrous"
+        }
+    },
+    "intelligence_quotient": {
+        "Description": "Nonverbal intelligence coefficient scored by KABC-II",
+        "Units": "a.u."
+    },
+    "group": {
+        "Description": "Experimental group of children",
+        "Levels": {
+            "asd": "children with autism spectrum disorders",
+            "td": "typically developing children"
+        }
+    }
+}
