@@ -12,7 +12,9 @@
         "Anna M. Rytikova",
         "Artyom Y. Novikov",
         "Vladimir V. Kozunov",
-        "Tatyana A. Stroganova", 
+        "Tatyana A. Stroganova",
         "Elena V. Orekhova"
-    ]
+    ],
+    "HowToAcknowledge": "Please acknowledge this dataset by indicating that it is distributed under the CC BY license. According to this license, when using this dataset, including a reference link to it (i.e., by DOI) is mandatory.",
+    "License": "CC0"
 }
