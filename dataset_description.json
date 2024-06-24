@@ -11,10 +11,8 @@
         "Andrey O. Prokofyev",
         "Anna M. Rytikova",
         "Artyom Y. Novikov",
-        "Tatyana A. Stroganova",
+        "Vladimir V. Kozunov",
+        "Tatyana A. Stroganova", 
         "Elena V. Orekhova"
-    ],
-    "DatasetDOI": "doi:10.18112/openneuro.ds005234.v2.1.1",
-    "License": "CC0",
-    "Acknowledgements": "We sincerely thank all of volunteers who participated in this study."
+    ]
 }
