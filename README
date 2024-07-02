@@ -8,7 +8,7 @@ Perception of vowel features (formant structure, pitch) in children with autism 
 
 # Brief overview:
 
-This dataset was obtained by the team at the Center for Neurocognitive Research (MEG Center) of Moscow State University of Psychology and Education as part of a study on vowel perception and their properties in children (Fadeev et al., 2024, in press). It includes MEG recordings from 35 children with autism spectrum disorders and 39 typically developing children.
+This dataset was obtained by the team at the Center for Neurocognitive Research (MEG Center) of Moscow State University of Psychology and Education as part of a study on vowel perception and their properties in children (Fadeev et al., 2024, preprint). It includes MEG recordings from 35 children with autism spectrum disorders and 39 typically developing children.
 
 # Experimental procedure:
 
@@ -182,11 +182,12 @@ The study was funded within the framework of the state assignment of the Ministr
 
 4. Fadeev, K. A., Goyaeva, D. E., Obukhova, T. S., Ovsyannikova, T. M., Shvedovskiy, E. F., Yu. Nikolaeva, A., Davydova, E. Y., Stroganova, T. A. & Orekhova, E. V. (2023). Difficulty with Speech Perception in the Background of Noise in Children with Autism Spectrum Disorders Is Not Related to Their Level of Intelligence. Clinical Psychology and Special Education, 12(1), 180–212. https://doi.org/10.17759/cpse.2023120108
 
-5. Lopukhina, A., Chrabaszcz, A., Khudyakova, M., Korkina, I., Yurchenko, A. & Dragoy, O. (2019). Test for assessment of language development in Russian «KORABLIK». Proceedings of the Satellite of AMLaP conference «Typical and Atypical Language Development Symposium».
+5. Fadeev, K. A., Romero Reyes, I. V., Goiaeva, D. E., Obukhova, T. S., Ovsiannikova, T. M., Prokofyev, A. O., Rytikova, A. M., Novikov, A. Y., Kozunov, V. V., Stroganova, T. A., & Orekhova, E. V. (2024). Attenuated processing of vowels in the left hemisphere predicts speech-in-noise perception deficit in children with autism. bioRxiv (Cold Spring Harbor Laboratory). https://doi.org/10.1101/2024.06.24.600191
 
-6. Kaufman, A. S. & Kaufman, N. L. (2004). KABC-II : Kaufman Assessment Battery for Children (2nd ed., Vol. 1–8). AGS Pub.
+6. Lopukhina, A., Chrabaszcz, A., Khudyakova, M., Korkina, I., Yurchenko, A. & Dragoy, O. (2019). Test for assessment of language development in Russian «KORABLIK». Proceedings of the Satellite of AMLaP conference «Typical and Atypical Language Development Symposium».
 
-7. Berument, S. K., Rutter, M., Lord, C., Pickles, A. & Bailey, A. (1999). Autism screening questionnaire: diagnostic validity. The British Journal of Psychiatry: The Journal of Mental Science, 175, 444–451. https://doi.org/10.1192/bjp.175.5.444
+7. Kaufman, A. S. & Kaufman, N. L. (2004). KABC-II : Kaufman Assessment Battery for Children (2nd ed., Vol. 1–8). AGS Pub.
 
-8. Constantino, J. N. (2013). Social Responsiveness Scale. In F. R. Volkmar (Ed.), Encyclopedia of Autism Spectrum Disorders (pp. 2919–2929). Springer New York. https://doi.org/10.1007/978-1-4419-1698-3_296
+8. Berument, S. K., Rutter, M., Lord, C., Pickles, A. & Bailey, A. (1999). Autism screening questionnaire: diagnostic validity. The British Journal of Psychiatry: The Journal of Mental Science, 175, 444–451. https://doi.org/10.1192/bjp.175.5.444
 
+9. Constantino, J. N. (2013). Social Responsiveness Scale. In F. R. Volkmar (Ed.), Encyclopedia of Autism Spectrum Disorders (pp. 2919–2929). Springer New York. https://doi.org/10.1007/978-1-4419-1698-3_296
